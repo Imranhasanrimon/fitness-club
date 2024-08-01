@@ -7,6 +7,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
     color: white;
     font-family: "Inter", sans-serif;
 }
@@ -41,12 +42,18 @@ body {
 header {
     padding-top: 30px;
     background: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 0.2), black);
+    padding-right: 54px;
 }
 
 header .content-area {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
+}
+
+header .content-area a {
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 header .content-area nav {
@@ -64,6 +71,10 @@ header .content-area nav .menu {
     display: flex;
     align-items: center;
     gap: 47px;
+}
+
+header .content-area nav .fa-bars {
+    display: none;
 }
 
 .hero-section {
@@ -93,11 +104,79 @@ header .content-area nav .menu {
 }
 
 .hero-section .hero-text .btn-primary {
-    padding: 16px 40px;
+    width: 224px;
+    height: 54px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.hero-section .hero-text .btn-container {
+    display: flex;
+    gap: 14px;
 }
 
 .hero-section .hero-text .btn-app {
     background: transparent;
     border: 1px solid white;
-    margin-left: 14px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image .card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image .paid {
+    width: 206px;
+    padding: 20px 23px;
+    gap: 8px;
+    position: absolute;
+    left: -113px;
+    bottom: 63px;
+}
+
+.hero-image .paid i {
+    font-size: 2.5rem;
+    color: rgb(230, 83, 60);
+}
+
+.hero-image .paid h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.hero-image .paid .description {
+    font-size: 1rem;
+    margin-top: 8px;
+    line-height: 24px;
+}
+
+.hero-image .free {
+    width: 193px;
+    padding: 16px 23px;
+
+    position: absolute;
+    top: 125px;
+    right: -74px;
+}
+
+.hero-image .free h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.hero-image .free .description {
+    margin-top: 5px;
+    font-size: 0.875rem;
+    line-height: 20px;
 }

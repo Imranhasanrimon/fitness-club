@@ -1,0 +1,76 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+
+    /* header section starts here  */
+    header {
+        padding-right: 0;
+    }
+
+    header .content-area nav .menu {
+        display: none;
+    }
+
+    header .content-area nav .fa-bars {
+        display: block;
+        font-size: 1.75rem;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-section .hero-text h1 {
+        font-size: 2.25rem;
+    }
+
+    .hero-section .hero-text .btn-primary {
+        width: 169px;
+    }
+
+    .hero-section .hero-text .btn-primary span {
+        display: none;
+    }
+
+    .hero-image .paid {
+        width: 156px;
+        padding: 14px 0;
+        gap: 7px;
+        left: -12px;
+        bottom: 244px;
+    }
+
+    .hero-image .paid i {
+        font-size: 1.875rem;
+    }
+
+    .hero-image .paid h3 {
+        font-size: 1.125rem;
+        font-weight: 900;
+        line-height: 18 px;
+    }
+
+    .hero-image .paid .description {
+        font-size: 0.75rem;
+        margin-top: 5px;
+        line-height: 18px;
+    }
+
+    .hero-image .free {
+        width: 146px;
+        padding: 11px 17px;
+        top: 47px;
+        right: 12px;
+    }
+
+    .hero-image .free h3 {
+        font-size: 1.875rem;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .hero-image .free .description {
+        margin-top: 5px;
+        font-size: 0.625rem;
+        line-height: 15px;
+    }
+}
