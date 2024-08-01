@@ -1,6 +1,11 @@
 /* for small devices  */
 @media screen and (max-width:576px) {
 
+    /* some shared styles  */
+    .title {
+        font-size: 2rem;
+    }
+
     /* header section starts here  */
     header {
         padding-right: 0;
@@ -21,6 +26,11 @@
 
     .hero-section .hero-text h1 {
         font-size: 2.25rem;
+        line-height: 120%;
+
+        span {
+            font-size: 5rem;
+        }
     }
 
     .hero-section .hero-text .description {

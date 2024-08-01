@@ -1,5 +1,7 @@
 /* google fonts link  */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* this link for Miama font  */
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 /* my defaul styles  */
 * {
@@ -31,6 +33,24 @@ body {
     display: inline-block;
 }
 
+section {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.heading {
+    max-width: 640px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
 .description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
@@ -40,7 +60,7 @@ body {
 
 /* header section starts here  */
 header {
-    padding-top: 30px;
+    padding-top: 50px;
     background: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 0.2), black);
     padding-right: 54px;
 }
@@ -91,10 +111,13 @@ header .content-area nav .fa-bars {
 .hero-section .hero-text h1 {
     font-size: 5rem;
     font-weight: 900;
+    line-height: 110%;
 
     span {
-        font-family: "Great Vibes", cursive;
+        font-family: 'Miama', sans-serif;
         font-weight: 100;
+        font-size: 8rem;
+
     }
 }
 
@@ -184,3 +207,5 @@ header .content-area nav .fa-bars {
     font-size: 0.875rem;
     line-height: 20px;
 }
+
+/* habit section starts here  */
