@@ -8,7 +8,6 @@
     list-style: none;
     text-decoration: none;
     color: white;
-    font-family: "Great Vibes", cursive;
     font-family: "Inter", sans-serif;
 }
 
@@ -29,6 +28,12 @@ body {
     border-radius: 46px;
     background: rgb(230, 83, 60);
     display: inline-block;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    line-height: 1.5rem;
 }
 
 
@@ -62,5 +67,37 @@ header .content-area nav .menu {
 }
 
 .hero-section {
+    margin-top: 32px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section .hero-text {
+    max-width: 520px;
+}
+
+.hero-section .hero-text h1 {
+    font-size: 5rem;
+    font-weight: 900;
+
+    span {
+        font-family: "Great Vibes", cursive;
+        font-weight: 100;
+    }
+}
+
+.hero-section .hero-text .description {
+    margin: 28px 0;
+    font-size: 1rem;
+}
+
+.hero-section .hero-text .btn-primary {
+    padding: 16px 40px;
+}
+
+.hero-section .hero-text .btn-app {
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 14px;
 }
