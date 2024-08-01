@@ -98,6 +98,22 @@
         grid-template-columns: repeat(1, 80%);
         justify-content: center;
     }
+
+    /* running section starts here  */
+    .running .container {
+        padding: 30px;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .running .container .text .btn-primary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .running .container img {
+        width: 100%;
+    }
 }
 
 /* for medium devices  */
@@ -135,7 +151,16 @@
     /* habit section starts here  */
     .habit .image-container {
         grid-template-columns: repeat(2, 40%);
-        row-gap: 40px;
         justify-content: center;
+    }
+
+    /* running section starts here  */
+    .running .container {
+        padding: 30px;
+        gap: 60px;
+    }
+
+    .running .container .text .title {
+        font-size: 2.25rem;
     }
 }
