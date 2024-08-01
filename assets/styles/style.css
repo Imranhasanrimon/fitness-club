@@ -1,6 +1,66 @@
+/* google fonts link  */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* my defaul styles  */
 * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
     font-family: "Great Vibes", cursive;
     font-family: "Inter", sans-serif;
+}
+
+body {
+    background: black;
+}
+
+/* some shared styles  */
+.icon {
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.btn-primary {
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    display: inline-block;
+}
+
+
+/* header section starts here  */
+header {
+    padding-top: 30px;
+    background: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 0.2), black);
+}
+
+header .content-area {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header .content-area nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .content-area nav .menu {
+    padding: 4px;
+    padding-right: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    gap: 47px;
+}
+
+.hero-section {
+    display: flex;
 }
