@@ -57,18 +57,18 @@ section {
     line-height: 1.5rem;
 }
 
-
 /* header section starts here  */
 header {
-    padding-top: 50px;
+    width: 100%;
+    padding: 50px 0;
     background: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 0.2), black);
-    padding-right: 54px;
 }
 
 header .content-area {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
+    padding-right: 78px;
 }
 
 header .content-area a {
@@ -209,3 +209,15 @@ header .content-area nav .fa-bars {
 }
 
 /* habit section starts here  */
+.habit .image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.habit .image-container img {
+    width: 80%;
+    border-radius: 50%;
+    border: 5px solid rgba(128, 128, 128, 0.459);
+}

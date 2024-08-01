@@ -7,7 +7,7 @@
     }
 
     /* header section starts here  */
-    header {
+    header .content-area {
         padding-right: 0;
     }
 
@@ -92,16 +92,18 @@
         font-size: 0.625rem;
         line-height: 15px;
     }
+
+    /* habit section starts here  */
+    .habit .image-container {
+        grid-template-columns: repeat(1, 80%);
+        justify-content: center;
+    }
 }
 
 /* for medium devices  */
 @media screen and (min-width:576px) and (max-width:992px) {
 
     /* header section starts here  */
-    header {
-        padding-right: 0;
-    }
-
     header .content-area nav {
         padding: 0 10px;
     }
@@ -128,5 +130,12 @@
     .hero-image .free {
         top: 59px;
         right: -35px;
+    }
+
+    /* habit section starts here  */
+    .habit .image-container {
+        grid-template-columns: repeat(2, 40%);
+        row-gap: 40px;
+        justify-content: center;
     }
 }
