@@ -48,7 +48,7 @@ header {
 header .content-area {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 header .content-area a {
@@ -146,6 +146,10 @@ header .content-area nav .fa-bars {
 .hero-image .paid i {
     font-size: 2.5rem;
     color: rgb(230, 83, 60);
+}
+
+.hero-image .paid .play-btn {
+    display: none;
 }
 
 .hero-image .paid h3 {

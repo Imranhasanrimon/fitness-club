@@ -23,6 +23,10 @@
         font-size: 2.25rem;
     }
 
+    .hero-section .hero-text .description {
+        width: 70%;
+    }
+
     .hero-section .hero-text .btn-primary {
         width: 169px;
     }
@@ -40,7 +44,12 @@
     }
 
     .hero-image .paid i {
-        font-size: 1.875rem;
+        display: none;
+    }
+
+    .hero-image .paid .play-btn {
+        width: 30px;
+        display: block;
     }
 
     .hero-image .paid h3 {
@@ -72,5 +81,42 @@
         margin-top: 5px;
         font-size: 0.625rem;
         line-height: 15px;
+    }
+}
+
+/* for medium devices  */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* header section starts here  */
+    header {
+        padding-right: 0;
+    }
+
+    header .content-area nav {
+        padding: 0 10px;
+    }
+
+    header .content-area nav .menu {
+        gap: 20px;
+    }
+
+    .hero-section {
+        padding: 0 50px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .hero-section .hero-text {
+        align-self: self-start;
+    }
+
+    .hero-image .paid {
+        left: -50px;
+        bottom: 131px;
+    }
+
+    .hero-image .free {
+        top: 59px;
+        right: -35px;
     }
 }
