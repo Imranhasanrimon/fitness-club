@@ -139,17 +139,27 @@
     }
 
     /* responsive meet our team section styles  */
-    .team-container .title {
-        font-size: 2rem;
-        margin-bottom: 10px;
-    }
-
     .team-container .image-collage {
         grid-template-columns: repeat(1, 1fr);
 
         .Jerome,
         .Dianne {
             display: none;
+        }
+    }
+
+    /* responsive testimonial styles  */
+    .all-testimonials {
+        grid-template-columns: repeat(1, 1fr);
+
+        .third {
+            grid-row: span 1;
+        }
+
+        .first,
+        .fifth {
+            grid-column: span 1;
+
         }
     }
 }
@@ -217,5 +227,26 @@
     .team-container .image-collage {
         gap: 10px;
         padding: 10px;
+    }
+
+    /* responsive testimonial styles  */
+
+    .all-testimonials {
+        grid-template-columns: repeat(2, 1fr);
+
+        .second2,
+        .fourth {
+            grid-column: span 1;
+        }
+
+        .third {
+            display: none;
+        }
+
+        .first,
+        .fifth {
+            grid-column: span 2;
+
+        }
     }
 }

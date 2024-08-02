@@ -439,3 +439,73 @@ select {
     padding: 20px;
     border-radius: 18px;
 }
+
+/* client testimonials section styles  */
+.all-testimonials {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    .first {
+        grid-column: span 2;
+    }
+
+    .second2 {
+        background: rgb(43, 43, 43);
+    }
+
+    .third {
+        grid-row: span 2;
+        background: rgb(65, 53, 53);
+    }
+
+    .fourth {
+
+        background: rgb(97, 69, 93);
+    }
+
+    .fifth {
+        grid-column: span 2;
+        background: rgba(255, 226, 226, 0.637);
+    }
+
+}
+
+.testimonial-card {
+    background: rgb(109, 109, 109);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+
+    h3 {
+        font-size: 1.5rem;
+        margin: 30px 0;
+    }
+
+    .message {
+        text-align: justify;
+
+    }
+}
+
+.testimonial-card .client {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid rgb(230, 83, 60);
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        opacity: .7;
+    }
+}
