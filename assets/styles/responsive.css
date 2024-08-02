@@ -119,13 +119,25 @@
     }
 
     /* training section starts here  */
-    .training .image-collage {
-        grid-template-columns: repeat(2, 1fr);
+    .training .one {
+        grid-column: span 14;
+    }
+
+    .training .two {
+        grid-column: span 14;
     }
 
     .training .three,
     .training .six {
         display: none;
+    }
+
+    .training .four {
+        grid-column: span 13;
+    }
+
+    .training .five {
+        grid-column: span 15;
     }
 
     /* BMI section starts here  */

@@ -256,7 +256,7 @@ header .content-area nav .fa-bars {
 /* training section starts here  */
 .training .image-collage {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(28, 1fr);
 }
 
 .training .image-collage img {
@@ -286,8 +286,16 @@ header .content-area nav .fa-bars {
     }
 }
 
-.training .two .color-fil {
-    background: rgba(255, 0, 0, 0.3);
+.training .one {
+    grid-column: span 6;
+}
+
+.training .two {
+    grid-column: span 14;
+
+    .color-fil {
+        background: rgba(255, 0, 0, 0.3);
+    }
 
     h3 {
         top: 20px;
@@ -295,12 +303,20 @@ header .content-area nav .fa-bars {
     }
 }
 
-.training .three .color-fil {
-    background: rgba(0, 0, 0, 0.5);
+.training .three {
+    grid-column: span 8;
+
+    .color-fil {
+        background: rgba(0, 0, 0, 0.5);
+    }
 }
 
-.training .four .color-fil {
-    background: rgba(0, 0, 0, 0.5);
+.training .four {
+    grid-column: span 11;
+
+    .color-fil {
+        background: rgba(0, 0, 0, 0.5);
+    }
 
     h4 {
         position: absolute;
@@ -310,12 +326,20 @@ header .content-area nav .fa-bars {
     }
 }
 
-.training .five .color-fil {
-    background: rgba(66, 255, 0, 0.3);
+.training .five {
+    grid-column: span 7;
+
+    .color-fil {
+        background: rgba(66, 255, 0, 0.3);
+    }
 }
 
-.training .six .color-fil {
-    background: rgba(0, 71, 255, 0.3);
+.training .six {
+    grid-column: span 10;
+
+    .color-fil {
+        background: rgba(0, 71, 255, 0.3);
+    }
 }
 
 /* BMI section starts here  */
