@@ -22,6 +22,7 @@
 
     .hero-section {
         flex-direction: column;
+        gap: 50px;
     }
 
     .hero-section .hero-text h1 {
@@ -132,6 +133,7 @@
         padding: 0 50px;
         margin-top: 50px;
         flex-direction: column;
+        gap: 100px;
     }
 
     .hero-section .hero-text {
