@@ -125,6 +125,16 @@
     .training .six {
         display: none;
     }
+
+    /* BMI section starts here  */
+    .bmi .content {
+        flex-direction: column;
+        gap: 42px;
+    }
+
+    .bmi .content .caption {
+        font-size: 1rem;
+    }
 }
 
 /* for medium devices  */
@@ -174,5 +184,15 @@
 
     .running .container .text .title {
         font-size: 2.25rem;
+    }
+
+    /* BMI section starts here  */
+    .bmi .content {
+        flex-direction: column;
+        gap: 62px;
+    }
+
+    form {
+        max-width: 100%;
     }
 }
