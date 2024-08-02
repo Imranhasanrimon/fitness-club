@@ -137,6 +137,21 @@
     .bmi .content .caption {
         font-size: 1rem;
     }
+
+    /* responsive meet our team section styles  */
+    .team-container .title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .team-container .image-collage {
+        grid-template-columns: repeat(1, 1fr);
+
+        .Jerome,
+        .Dianne {
+            display: none;
+        }
+    }
 }
 
 /* for medium devices  */
@@ -196,5 +211,11 @@
 
     form {
         max-width: 100%;
+    }
+
+    /* responsive meet our team section styles  */
+    .team-container .image-collage {
+        gap: 10px;
+        padding: 10px;
     }
 }
