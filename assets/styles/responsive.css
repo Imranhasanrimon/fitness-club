@@ -162,6 +162,13 @@
 
         }
     }
+
+    /* responsive footer styles  */
+    footer .container {
+        margin: 0;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
 }
 
 /* for medium devices  */
@@ -248,5 +255,17 @@
             grid-column: span 2;
 
         }
+    }
+
+    /* responsive footer styles  */
+    footer .container {
+        margin: 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    footer .container .fitness-content {
+        max-width: 60%;
+        grid-column: span 2;
     }
 }

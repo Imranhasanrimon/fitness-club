@@ -34,7 +34,8 @@ body {
 }
 
 section,
-.full-bg .content {
+.full-bg .content,
+footer .container {
     max-width: 1100px;
     margin: 50px auto;
     padding: 0 20px;
@@ -442,7 +443,6 @@ select {
 
 /* client testimonials section styles  */
 .all-testimonials {
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -508,4 +508,55 @@ select {
     p {
         opacity: .7;
     }
+}
+
+/* footer section style  */
+footer {
+    background: rgb(34, 34, 34);
+    padding: 50px 0;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 40% 25% 25%);
+    gap: 3%;
+}
+
+footer .container h1 {
+    font-size: 4.375rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+footer .container h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+footer .container ul li {
+    list-style: none;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4375rem;
+}
+
+.hr-line {
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+.hr-line small {
+    text-align: center;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+}
+
+footer hr {
+    margin-top: 55px;
+    margin-bottom: 36px;
+    opacity: .5;
 }
