@@ -115,6 +115,16 @@
     .running .container img {
         width: 100%;
     }
+
+    /* training section starts here  */
+    .training .image-collage {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .training .three,
+    .training .six {
+        display: none;
+    }
 }
 
 /* for medium devices  */

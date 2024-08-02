@@ -251,3 +251,68 @@ header .content-area nav .fa-bars {
     width: 40%;
     border-radius: 18px;
 }
+
+/* training section starts here  */
+.training .image-collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.training .image-collage img {
+    width: 100%;
+    height: 100%;
+}
+
+.training .image-container {
+    position: relative;
+}
+
+.training .color-fil,
+.training h3 {
+    position: absolute;
+}
+
+.training .color-fil {
+    height: 100%;
+    width: 100%;
+    background: rgba(6, 255, 210, 0.5);
+    top: 0;
+
+    h3 {
+        font-size: .8rem;
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+.training .two .color-fil {
+    background: rgba(255, 0, 0, 0.3);
+
+    h3 {
+        top: 20px;
+        left: 20px;
+    }
+}
+
+.training .three .color-fil {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.training .four .color-fil {
+    background: rgba(0, 0, 0, 0.5);
+
+    h4 {
+        position: absolute;
+        font-size: .8rem;
+        right: 20px;
+        top: 20px;
+    }
+}
+
+.training .five .color-fil {
+    background: rgba(66, 255, 0, 0.3);
+}
+
+.training .six .color-fil {
+    background: rgba(0, 71, 255, 0.3);
+}
