@@ -8,7 +8,7 @@
 
     /* header section starts here  */
     header .content-area {
-        padding-right: 0;
+        padding-right: 25px;
     }
 
     header .content-area nav .menu {
@@ -41,7 +41,9 @@
     }
 
     .hero-section .hero-text .btn-primary {
-        width: 169px;
+        width: 150px;
+        font-weight: 400;
+        font-size: 1rem;
     }
 
     .hero-section .hero-text .btn-primary span {
